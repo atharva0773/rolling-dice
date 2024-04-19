@@ -1,0 +1,70 @@
+body{
+    font-family: "Open Sans",sans-serif;
+    text-align:center ;
+    background-color: rgb(36, 36, 65);
+}
+h1{
+   font-size: 3rem;
+    margin-top: 2rem;
+    height: .01rem;
+}
+.dice{
+   font-size: 11rem;
+   margin : .1rem;
+   color: rgb(168, 125, 158);
+   animation-duration: 4s;
+   animation-fill-mode: forwards;
+  
+  
+}
+.roll-animation{
+    animation-name: roll;
+}
+@keyframes roll{
+    0%{
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    100%{
+        transform:rotateX(1440deg) rotateY(1440deg) rotateZ(1440deg);
+    }
+}
+button{
+    background-color: rgb(133, 51, 51);
+    color:white;
+    border-radius: .8rem;
+    border: none;
+    font-size:1.4rem ;
+    cursor: pointer;
+    padding: .5rem 1rem;
+   
+   
+}
+
+button:hover{
+    color: black;
+}
+ul{
+    list-style: none;
+    margin: 2rem auto;
+    max-width: 700px;
+    padding: 0;
+}
+li{
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin: .5rem;
+    background-color: #f2f2f2;
+    border-radius: .5rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, .4);
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color:  rgb(133, 51, 51);
+
+}
+li span{
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
